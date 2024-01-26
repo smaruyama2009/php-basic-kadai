@@ -9,7 +9,7 @@
 <body>
   <p>
     <?php
-    // 変数に値を代入する
+    // 変数に値を代入する(体重)
     $score1 = 80;
     $score2 = 60;
     $score3 = 55;
@@ -21,13 +21,18 @@
     $score9 = 30;
     $score10 = 60;
 
-    // 変数の合計
+    // 変数の合計（体重の合計）
     $score_total = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+    
+    // scoreの数
+     $total_number = 10;
+     
+    //  変数の平均（体重の平均）
+     $average_weight = $score_total / $total_number;
 
-    // scoreの合計数
-    $total_number = 10;
+     echo $average_weight;
 
-    echo $score_total / $total_number;
+
     ?>
   </p>
 </body>
